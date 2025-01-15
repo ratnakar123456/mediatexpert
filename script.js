@@ -173,3 +173,7 @@ document.getElementById('close-btn').addEventListener('click', function() {
 });
 
 
+
+document.getElementById('close-ad').addEventListener('click', function() {
+  document.getElementById('advertisement').style.display = 'none';
+});
