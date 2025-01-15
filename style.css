@@ -1045,3 +1045,35 @@ font-size: 18px;
 .social-section i{
   margin: 10px;
 }
+
+
+
+.advertisement {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.advertisement a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.advertisement .close-ad {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+}
