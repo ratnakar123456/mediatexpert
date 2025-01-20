@@ -173,7 +173,189 @@ document.getElementById('close-btn').addEventListener('click', function() {
 });
 
 
-
-document.getElementById('close-ad').addEventListener('click', function() {
-  document.getElementById('advertisement').style.display = 'none';
+document.getElementById('Legal-card').addEventListener('click', function() {
+  document.getElementById('overlay-legal').style.display = 'block';
+  document.getElementById('float-container-legal').style.display = 'block';
 });
+
+document.getElementById('close-btn-legal').addEventListener('click', function() {
+  document.getElementById('overlay-legal').style.display = 'none';
+  document.getElementById('float-container-legal').style.display = 'none';
+});
+
+
+document.getElementById('Business-card').addEventListener('click', function() {
+  document.getElementById('overlay-business').style.display = 'block';
+  document.getElementById('float-container-business').style.display = 'block';
+});
+
+document.getElementById('close-btn-business').addEventListener('click', function() {
+  document.getElementById('overlay-business').style.display = 'none';
+  document.getElementById('float-container-business').style.display = 'none';
+});
+
+
+
+document.getElementById('Education-card').addEventListener('click', function() {
+  document.getElementById('overlay-education').style.display = 'block';
+  document.getElementById('float-container-education').style.display = 'block';
+});
+
+document.getElementById('close-btn-education').addEventListener('click', function() {
+  document.getElementById('overlay-education').style.display = 'none';
+  document.getElementById('float-container-education').style.display = 'none';
+});
+
+
+
+document.getElementById('Real Estate').addEventListener('click', function() {
+  document.getElementById('overlay-real-estate').style.display = 'block';
+  document.getElementById('float-container-real-estate').style.display = 'block';
+});
+
+document.getElementById('close-btn-real-estate').addEventListener('click', function() {
+  document.getElementById('overlay-real-estate').style.display = 'none';
+  document.getElementById('float-container-real-estate').style.display = 'none';
+});
+
+
+document.getElementById('Interior-Design').addEventListener('click', function() {
+  document.getElementById('overlay-interior-design').style.display = 'block';
+  document.getElementById('float-container-interior-design').style.display = 'block';
+});
+
+document.getElementById('close-btn-interior-design').addEventListener('click', function() {
+  document.getElementById('overlay-interior-design').style.display = 'none';
+  document.getElementById('float-container-interior-design').style.display = 'none';
+});
+
+
+document.getElementById('Even-Management').addEventListener('click', function() {
+  document.getElementById('overlay-even-management').style.display = 'block';
+  document.getElementById('float-container-even-management').style.display = 'block';
+});
+
+document.getElementById('close-btn-even-management').addEventListener('click', function() {
+  document.getElementById('overlay-even-management').style.display = 'none';
+  document.getElementById('float-container-even-management').style.display = 'none';
+});
+
+
+document.getElementById('Job-Placement').addEventListener('click', function() {
+  document.getElementById('overlay-job-placement').style.display = 'block';
+  document.getElementById('float-container-job-placement').style.display = 'block';
+});
+
+document.getElementById('close-btn-job-placement').addEventListener('click', function() {
+  document.getElementById('overlay-job-placement').style.display = 'none';
+  document.getElementById('float-container-job-placement').style.display = 'none';
+});
+
+document.getElementById('Astrology').addEventListener('click', function() {
+  document.getElementById('overlay-astrology').style.display = 'block';
+  document.getElementById('float-container-astrology').style.display = 'block';
+});
+
+document.getElementById('close-btn-astrology').addEventListener('click', function() {
+  document.getElementById('overlay-astrology').style.display = 'none';
+  document.getElementById('float-container-astrology').style.display = 'none';
+});
+
+document.getElementById('Matrimony').addEventListener('click', function() {
+  document.getElementById('overlay-matrimony').style.display = 'block';
+  document.getElementById('float-container-matrimony').style.display = 'block';
+});
+
+document.getElementById('close-btn-matrimony').addEventListener('click', function() {
+  document.getElementById('overlay-matrimony').style.display = 'none';
+  document.getElementById('float-container-matrimony').style.display = 'none';
+});
+
+document.getElementById('Repairing-Service').addEventListener('click', function() {
+  document.getElementById('overlay-repairing-service').style.display = 'block';
+  document.getElementById('float-container-repairing-service').style.display = 'block';
+});
+
+document.getElementById('close-btn-repairing-service').addEventListener('click', function() {
+  document.getElementById('overlay-repairing-service').style.display = 'none';
+  document.getElementById('float-container-repairing-service').style.display = 'none';
+});
+
+document.getElementById('Print-Media').addEventListener('click', function() {
+  document.getElementById('overlay-print-media').style.display = 'block';
+  document.getElementById('float-container-print-media').style.display = 'block';
+});
+
+document.getElementById('close-btn-print-media').addEventListener('click', function() {
+  document.getElementById('overlay-print-media').style.display = 'none';
+  document.getElementById('float-container-print-media').style.display = 'none';
+});
+
+document.getElementById('Marketing-Services').addEventListener('click', function() {
+  document.getElementById('overlay-marketing-services').style.display = 'block';
+  document.getElementById('float-container-marketing-services').style.display = 'block';
+});
+
+document.getElementById('close-btn-marketing-services').addEventListener('click', function() {
+  document.getElementById('overlay-marketing-services').style.display = 'none';
+  document.getElementById('float-container-marketing-services').style.display = 'none';
+});
+
+
+
+document.getElementById('Data-Provide').addEventListener('click', function() {
+  document.getElementById('overlay-data-provide').style.display = 'block';
+  document.getElementById('float-container-data-provide').style.display = 'block';
+});
+
+document.getElementById('close-btn-data-provide').addEventListener('click', function() {
+  document.getElementById('overlay-data-provide').style.display = 'none';
+  document.getElementById('float-container-data-provide').style.display = 'none';
+});
+
+document.getElementById('Old-Product').addEventListener('click', function() {
+  document.getElementById('overlay-old-product').style.display = 'block';
+  document.getElementById('float-container-old-product').style.display = 'block';
+});
+
+document.getElementById('close-btn-old-product').addEventListener('click', function() {
+  document.getElementById('overlay-old-product').style.display = 'none';
+  document.getElementById('float-container-old-product').style.display = 'none';
+});
+
+document.getElementById('Tour-Travel').addEventListener('click', function() {
+  document.getElementById('overlay-tour-travel').style.display = 'block';
+  document.getElementById('float-container-tour-travel').style.display = 'block';
+});
+
+document.getElementById('close-btn-tour-travel').addEventListener('click', function() {
+  document.getElementById('overlay-tour-travel').style.display = 'none';
+  document.getElementById('float-container-tour-travel').style.display = 'none';
+});
+
+document.getElementById('Laundry-Service').addEventListener('click', function() {
+  document.getElementById('overlay-laundry-service').style.display = 'block';
+  document.getElementById('float-container-laundry-service').style.display = 'block';
+});
+
+document.getElementById('close-btn-laundry-service').addEventListener('click', function() {
+  document.getElementById('overlay-laundry-service').style.display = 'none';
+  document.getElementById('float-container-laundry-service').style.display = 'none';
+});
+
+
+document.getElementById('Cleaning-Service').addEventListener('click', function() {
+  document.getElementById('overlay-cleaning-service').style.display = 'block';
+  document.getElementById('float-container-cleaning-service').style.display = 'block';
+});
+
+document.getElementById('close-btn-cleaning-service').addEventListener('click', function() {
+  document.getElementById('overlay-cleaning-service').style.display = 'none';
+  document.getElementById('float-container-cleaning-service').style.display = 'none';
+});
+
+
+
+
+
+
