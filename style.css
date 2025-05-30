@@ -1513,3 +1513,12 @@ font-size: 18px;
   background-color: #1565C0;
 }
 
+ @media (max-width: 600px) {
+    .copyright {
+      font-size: 0.95rem;
+      padding: 10px 2px;
+    }
+    .copyright-break {
+      display: none;
+    }
+  }
